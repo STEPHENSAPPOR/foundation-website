@@ -9,10 +9,13 @@ const Home = () => {
       {/* Hero Section */}
       <div className="relative h-screen">
         <div
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover bg-center mt-16"
           style={{
             backgroundImage: `url(${homeImage})`,
             filter: 'brightness(0.5)', // Optional: Darken the image slightly for better text visibility
+            backgroundSize: 'cover', // Ensures the image covers the container
+            backgroundPosition: 'center', // Centers the image
+            backgroundRepeat: 'no-repeat', // Prevents the image from repeating
           }}
         ></div>
 
@@ -21,7 +24,7 @@ const Home = () => {
           <div className="mb-8 mt-40">
             {/* Heading */}
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              Children Need <span className="text-[#FF014F]">Your Help</span>
+              Children Need <span className="text-[#FF3D00]">Your Help</span>
             </h1>
             {/* Subheading */}
             <p className="text-lg md:text-2xl mb-6">
@@ -29,7 +32,7 @@ const Home = () => {
             </p>
           </div>
           {/* Act Now Button */}
-          <button className="bg-[#FF014F] hover:bg-green-500 text-white px-8 py-3 rounded-full font-bold text-lg transition">
+          <button className="bg-[#FF3D00] hover:bg-[#FF014F] text-white px-8 py-3 rounded-full font-bold text-lg transition">
             Act Now
           </button>
         </div>
@@ -39,7 +42,7 @@ const Home = () => {
       <div className="mt-1">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-0">
           {/* Block 1 */}
-          <div className="bg-[#FF014F] text-white py-8 px-4 text-center">
+          <div className="bg-[#FF3D00] text-white py-8 px-4 text-center">
             <h3 className="text-xl font-bold mb-4">
               We’ve been tackling poverty in communities to build better lives
             </h3>
@@ -63,7 +66,7 @@ const Home = () => {
             </a>
           </div>
           {/* Block 3 */}
-          <div className="bg-green-400 text-white py-8 px-4 text-center">
+          <div className="bg-[#FF3D00] text-white py-8 px-4 text-center">
             <h3 className="text-xl font-bold mb-4">
               Join our community to help bring clean and safe drinking water
             </h3>
@@ -81,7 +84,7 @@ const Home = () => {
 
       {/* Testimonial Section */}
       <div className="my-16 px-4 text-center">
-        <p className="bg-orange-100 text-orange-600 inline-block rounded-full px-3 py-1 mb-4 text-sm font-medium">
+        <p className="bg-orange-100 text-[#FF3D00] inline-block rounded-full px-3 py-1 mb-4 text-sm font-medium">
           Testimonial
         </p>
         <h2 className="text-4xl font-bold text-gray-900 mb-8">
@@ -91,10 +94,11 @@ const Home = () => {
           <div className="text-center">
             {/* User Image */}
             <img
-              className="rounded-full border-4 border-orange-500 mx-auto w-24 h-24 object-cover mb-6"
+              className="rounded-full border-4 border-[#FF3D00] mx-auto w-24 h-24 object-cover mb-6"
               src={homeImage} // Replace with the actual image path
               alt="Testimonial"
             />
+
             {/* Testimonial Text */}
             <p className="text-gray-700 max-w-xl mx-auto mb-6">
               Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo
@@ -103,7 +107,7 @@ const Home = () => {
             </p>
             {/* Donor Name and Profession */}
             <p className="font-bold text-lg">Doner Name</p>
-            <p className="text-orange-500">Profession</p>
+            <p className="text-[#FF3D00]">Profession</p>
           </div>
         </div>
       </div>
@@ -142,16 +146,16 @@ const Home = () => {
 
           {/* Progress Bar */}
           <div className="w-full rounded-full h-4 mb-4">
-            <div className="bg-[#FF014F] h-4 rounded-full" style={{ width: '83%' }}></div>
+            <div className="bg-[#FF3D00] h-4 rounded-full" style={{ width: '83%' }}></div>
           </div>
 
           {/* Percentage Text */}
           <div className="flex justify-between items-center">
-            <span className="text-[#FF014F] font-bold">83%</span>
+            <span className="text-[#FF3D00] font-bold">83%</span>
           </div>
 
           {/* Donate Button */}
-          <button className="mt-6 bg-[#FF014F] hover:bg-green-500 text-white px-6 py-3 rounded-full font-bold">
+          <button className="mt-6 bg-[#FF3D00] hover:bg-[#FF014F] text-white px-6 py-3 rounded-full font-bold">
             Donate Now
           </button>
         </div>

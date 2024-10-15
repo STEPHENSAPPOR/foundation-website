@@ -15,7 +15,7 @@ const Services = () => {
           
           {/* Service Card 1 */}
           <div className="bg-white shadow-lg rounded-lg p-6 text-center">
-            <div className="text-orange-500 mb-4">
+            <div className="text-[#FF3D00] mb-4">
               {/* Icon for Child Education */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ const Services = () => {
             </p>
             <a
               href="#"
-              className="text-white bg-orange-500 hover:bg-orange-600 px-4 py-2 rounded inline-flex items-center"
+              className="text-white bg-[#FF3D00] hover:bg-orange-600 px-4 py-2 rounded inline-flex items-center"
             >
               Learn More
               <svg
@@ -58,7 +58,7 @@ const Services = () => {
 
           {/* Service Card 2 */}
           <div className="bg-white shadow-lg rounded-lg p-6 text-center">
-            <div className="text-orange-500 mb-4">
+            <div className="text-[#FF3D00] mb-4">
               {/* Icon for Medical Treatment */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +81,7 @@ const Services = () => {
             </p>
             <a
               href="#"
-              className="text-white bg-orange-500 hover:bg-orange-600 px-4 py-2 rounded inline-flex items-center"
+              className="text-white bg-[#FF3D00] hover:bg-orange-600 px-4 py-2 rounded inline-flex items-center"
             >
               Learn More
               <svg
@@ -101,7 +101,7 @@ const Services = () => {
 
           {/* Service Card 3 */}
           <div className="bg-white shadow-lg rounded-lg p-6 text-center">
-            <div className="text-orange-500 mb-4">
+            <div className="text-[#FF3D00] mb-4">
               {/* Icon for Pure Drinking Water */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -124,7 +124,7 @@ const Services = () => {
             </p>
             <a
               href="#"
-              className="text-white bg-orange-500 hover:bg-orange-600 px-4 py-2 rounded inline-flex items-center"
+              className="text-white bg-[#FF3D00] hover:bg-orange-600 px-4 py-2 rounded inline-flex items-center"
             >
               Learn More
               <svg
@@ -160,7 +160,7 @@ const Services = () => {
                   <h3 className="text-lg font-semibold text-gray-800">Fundraiser for Kids</h3>
                   <p className="text-gray-500">Aug 25, 2018 | Ball Room New York</p>
                   <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  <a href="#" className="text-orange-500">Read More</a>
+                  <a href="#" className="text-[#FF3D00]">Read More</a>
                 </div>
               </div>
 
@@ -175,7 +175,7 @@ const Services = () => {
                   <h3 className="text-lg font-semibold text-gray-800">Bring water to the children</h3>
                   <p className="text-gray-500">Aug 25, 2018 | Ball Room New York</p>
                   <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  <a href="#" className="text-orange-500">Read More</a>
+                  <a href="#" className="text-[#FF3D00]">Read More</a>
                 </div>
               </div>
 
@@ -190,7 +190,7 @@ const Services = () => {
                   <h3 className="text-lg font-semibold text-gray-800">Bring water to the children</h3>
                   <p className="text-gray-500">Aug 25, 2018 | Ball Room New York</p>
                   <p className="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  <a href="#" className="text-orange-500">Read More</a>
+                  <a href="#" className="text-[#FF3D00]">Read More</a>
                 </div>
               </div>
             </div>
@@ -210,10 +210,10 @@ const Services = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
             <div className="w-full bg-gray-200 rounded-full h-4 mb-4">
-              <div className="bg-orange-500 h-4 rounded-full" style={{ width: '83%' }}></div>
+              <div className="bg-[#FF3D00] h-4 rounded-full" style={{ width: '83%' }}></div>
             </div>
             <p className="text-gray-600">Raised: $56,880 / $70,000</p>
-            <button className="mt-4 text-white bg-orange-500 hover:bg-orange-600 px-4 py-2 rounded w-full">
+            <button className="mt-4 text-white bg-[#FF3D00] hover:bg-orange-600 px-4 py-2 rounded w-full">
               Donate Now
             </button>
           </div>
@@ -231,7 +231,7 @@ const Services = () => {
             <h3 className="text-lg font-semibold text-gray-800 mt-4">Education for All</h3>
             <p className="text-gray-500 mt-2">Helping children in rural areas access quality education.</p>
             <div className="w-full bg-gray-200 rounded-full h-4 mt-4">
-              <div className="bg-green-500 h-4 rounded-full" style={{ width: '75%' }}></div>
+              <div className="bg-[#FF3D00] h-4 rounded-full" style={{ width: '75%' }}></div>
             </div>
             <div className="flex justify-between text-gray-600 mt-2">
               <p>Raised: $45,000</p>
@@ -245,7 +245,7 @@ const Services = () => {
             <h3 className="text-lg font-semibold text-gray-800 mt-4">Clean Water Initiative</h3>
             <p className="text-gray-500 mt-2">Providing clean water to communities in need for domestic use</p>
             <div className="w-full bg-gray-200 rounded-full h-4 mt-4">
-              <div className="bg-orange-500 h-4 rounded-full" style={{ width: '60%' }}></div>
+              <div className="bg-[#FF3D00] h-4 rounded-full" style={{ width: '60%' }}></div>
             </div>
             <div className="flex justify-between text-gray-600 mt-2">
               <p>Raised: $36,000</p>
@@ -259,7 +259,7 @@ const Services = () => {
             <h3 className="text-lg font-semibold text-gray-800 mt-4">Medical Relief Fund</h3>
             <p className="text-gray-500 mt-2">Supporting medical relief efforts for families in crisis.</p>
             <div className="w-full bg-gray-200 rounded-full h-4 mt-4">
-              <div className="bg-blue-500 h-4 rounded-full" style={{ width: '40%' }}></div>
+              <div className="bg-[#FF3D00] h-4 rounded-full" style={{ width: '40%' }}></div>
             </div>
             <div className="flex justify-between text-gray-600 mt-2">
               <p>Raised: $24,000</p>

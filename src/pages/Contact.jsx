@@ -1,12 +1,9 @@
-import contactImage from '../assets/images/contact.jpeg'; // Make sure the path is correct
+
 
 const Contact = () => {
   return (
-    <div
-      className="bg-gray-800 text-white py-16 bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url(${contactImage})` }}
-    >
-      <div className="bg-black bg-opacity-70 py-16 rounded-lg shadow-lg">
+    <div>
+      <div className="bg-white bg-opacity-70 py-16 rounded-lg shadow-lg ">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-4 md:px-0">
           {/* Left Section - Contact Info */}
           <div className="md:w-1/2">
@@ -25,7 +22,8 @@ const Contact = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span className="hover:text-[#FF3D00] transition duration-300">New York: 1800-2355-2356</span>
+                <span className="hover:text-[#FF3D00] transition duration-300">Agona Bewadze: <br />+233 53 777 9509 ||
+                +233 50 955 0849</span>
               </p>
               <p className="flex items-center mb-2 text-lg">
                 <svg
@@ -40,10 +38,12 @@ const Contact = () => {
                     clipRule="evenodd"
                   ></path>
                 </svg>
-                <span className="hover:text-[#FF3D00] transition duration-300">contact@Chariti.theme</span>
+                <span className="hover:text-[#FF3D00] transition duration-300">GP Address:
+                CG-3320-2068</span>
               </p>
               <p className="text-lg hover:text-[#FF3D00] transition duration-300">
-                Box 3233, 1810 Kings Way, King Street, 5th Avenue, New York
+              P.O.BOX,  SW 445
+              Agona Swedru, Central Region
               </p>
             </div>
             <div className="flex space-x-4 mt-4">
@@ -60,45 +60,45 @@ const Contact = () => {
           </div>
 
           {/* Right Section - Form */}
-          <div className="md:w-1/2 bg-gray-900 bg-opacity-80 p-8 rounded-lg shadow-lg mt-8 md:mt-0">
-            <h3 className="text-2xl font-bold mb-6">Get in Touch</h3>
+          <div className="md:w-1/2 bg-gray-900 bg-opacity-80 p-8 rounded-lg shadow-lg mt-8 md:mt-4">
+            <h3 className="text-2xl font-bold mb-6 text-white">Get in Touch</h3>
             <form>
               <div className="flex space-x-4 mb-4">
                 <input
                   type="text"
                   placeholder="First Name*"
-                  className="w-1/2 p-3 bg-gray-800 text-white placeholder-gray-500 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300"
+                  className="w-1/2 p-3 bg-white text-white placeholder-gray-500 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF3D00] transition duration-300"
                 />
                 <input
                   type="text"
                   placeholder="Last Name*"
-                  className="w-1/2 p-3 bg-gray-800 text-white placeholder-gray-500 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300"
+                  className="w-1/2 p-3 bg-white text-white placeholder-gray-500 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF3D00] transition duration-300"
                 />
               </div>
               <div className="flex space-x-4 mb-4">
                 <input
                   type="email"
                   placeholder="Email*"
-                  className="w-1/2 p-3 bg-gray-800 text-white placeholder-gray-500 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300"
+                  className="w-1/2 p-3 bg-white text-white placeholder-gray-500 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF3D00] transition duration-300"
                 />
                 <input
                   type="text"
                   placeholder="Phone*"
-                  className="w-1/2 p-3 bg-gray-800 text-white placeholder-gray-500 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300"
+                  className="w-1/2 p-3 bg-white text-white placeholder-gray-500 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF3D00] transition duration-300"
                 />
               </div>
               <div className="mb-4">
                 <input
                   type="text"
                   placeholder="Subject*"
-                  className="w-full p-3 bg-gray-800 text-white placeholder-gray-500 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300"
+                  className="w-full p-3 bg-white text-white placeholder-gray-500 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF3D00] transition duration-300"
                 />
               </div>
               <div className="mb-4">
                 <textarea
                   placeholder="Message*"
                   rows="5"
-                  className="w-full p-3 bg-gray-800 text-white placeholder-gray-500 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500 transition duration-300"
+                  className="w-full p-3 bg-white text-white placeholder-gray-500 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#FF3D00] transition duration-300"
                 ></textarea>
               </div>
               <button

@@ -22,7 +22,7 @@ const FundraiserSection = () => {
             </p>
           </div>
           <div className="flex flex-col">
-            <button className="bg-orange-500 text-white px-4 py-2 rounded-full mt-4">Donate Now</button>
+            <button className="bg-[#FF3D00] text-white px-4 py-2 rounded-full mt-4">Donate Now</button>
             <div className="mt-4">
               <div className="flex justify-between items-center">
                 <span className="text-gray-700 font-bold">$56,880 Raised</span>
@@ -30,7 +30,7 @@ const FundraiserSection = () => {
               </div>
               <div className="w-full bg-gray-200 rounded-full h-2 mt-2">
                 <div
-                  className="bg-orange-500 h-2 rounded-full"
+                  className="bg-[#FF3D00] h-2 rounded-full"
                   style={{ width: '83%' }}
                 ></div>
               </div>
@@ -55,7 +55,7 @@ const FundraiserSection = () => {
             </p>
           </div>
           <div className="flex flex-col">
-            <button className="bg-orange-500 text-white px-4 py-2 rounded-full mt-4">Donate Now</button>
+            <button className="bg-[#FF3D00] text-white px-4 py-2 rounded-full mt-4">Donate Now</button>
             <div className="mt-4">
               <div className="flex justify-between items-center">
                 <span className="text-gray-700 font-bold">$56,880 Raised</span>
@@ -63,7 +63,7 @@ const FundraiserSection = () => {
               </div>
               <div className="w-full bg-gray-200 rounded-full h-2 mt-2">
                 <div
-                  className="bg-orange-500 h-2 rounded-full"
+                  className="bg-[#FF3D00] h-2 rounded-full"
                   style={{ width: '83%' }}
                 ></div>
               </div>
@@ -80,7 +80,7 @@ const Causes = () => {
   return (
     <div className="bg-white shadow-lg rounded-lg overflow-hidden mb-4 mt-4">
       <div className="p-4">
-        <span className="inline-block bg-orange-500 text-white text-xs px-2 py-1 rounded-full uppercase font-semibold tracking-wide">Education</span>
+        <span className="inline-block bg-[#FF3D00] text-white text-xs px-2 py-1 rounded-full uppercase font-semibold tracking-wide">Education</span>
         <h2 className="mt-2 text-gray-800 font-bold text-xl">Education For African Children</h2>
         <p className="mt-2 text-gray-600 text-sm">Tempor erat elitr rebum at clita dolor diam ipsum sit diam amet diam et eos</p>
         <div className="mt-4">
@@ -89,7 +89,7 @@ const Causes = () => {
             <span className="text-gray-700 font-bold">$9,542 Raised</span>
           </div>
           <div className="w-full bg-gray-200 rounded-full h-2 mt-2">
-            <div className="bg-orange-500 h-2 rounded-full" style={{ width: '90%' }}></div>
+            <div className="bg-[#FF3D00] h-2 rounded-full" style={{ width: '90%' }}></div>
           </div>
         </div>
       </div>

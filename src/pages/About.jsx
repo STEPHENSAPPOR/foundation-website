@@ -108,21 +108,21 @@ const About = () => {
           <div className="md:w-1/2 flex flex-wrap items-center justify-center mt-8 md:mt-0">
             {/* Children helped */}
             <div className="text-center w-1/3 md:w-auto mb-4">
-              <FontAwesomeIcon icon={faHandsHelping} size="3x" className="text-orange-500 mb-4" />
+              <FontAwesomeIcon icon={faHandsHelping} size="3x" className="text-[#FF3D00] mb-4" />
               <h3 className="text-3xl md:text-4xl font-bold">120K</h3>
               <p className="text-gray-500">Children helped</p>
             </div>
 
             {/* Water wells */}
             <div className="text-center w-1/3 md:w-auto mb-4">
-              <FontAwesomeIcon icon={faWater} size="3x" className="text-orange-500 mb-4" />
+              <FontAwesomeIcon icon={faWater} size="3x" className="text-[#FF3D00] mb-4" />
               <h3 className="text-3xl md:text-4xl font-bold">79</h3>
               <p className="text-gray-500">Water wells</p>
             </div>
 
             {/* Volunteers */}
             <div className="text-center w-1/3 md:w-auto mb-4">
-              <FontAwesomeIcon icon={faDove} size="3x" className="text-orange-500 mb-4" />
+              <FontAwesomeIcon icon={faDove} size="3x" className="text-[#FF3D00] mb-4" />
               <h3 className="text-3xl md:text-4xl font-bold">253</h3>
               <p className="text-gray-500">Volunteers</p>
             </div>
@@ -149,7 +149,7 @@ const About = () => {
           </div>
 
           {/* Testimonial 2 */}
-          <div className="p-8 bg-orange-500 text-white rounded-lg shadow-lg">
+          <div className="p-8 bg-[#FF3D00] text-white rounded-lg shadow-lg">
             <FontAwesomeIcon icon={faQuoteLeft} size="lg" className="mb-4" />
             <p className="mb-6">
               Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.

@@ -28,9 +28,11 @@ const Footer = () => {
           <div>
             <h3 className="text-white text-lg font-bold mb-4">Contact Us</h3>
             <ul>
-              <li className="text-gray-400">Phone: (123) 456-7890</li>
+              <li className="text-gray-400">+233 53 777 9509 <br />
+              +233 50 955 0849</li>
               <li className="text-gray-400">Email: info@heavenwaves.org</li>
-              <li className="text-gray-400">Address: 123 Street Name, City, Country</li>
+              <li className="text-gray-400">Address: P.O.BOX,  SW 445
+              Agona Swedru, Central Region</li>
             </ul>
           </div>
 
